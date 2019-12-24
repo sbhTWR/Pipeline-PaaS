@@ -1,5 +1,5 @@
 # Pipeline-PaaS
-This is a project built using Docker in which a system has been designed allowing users to build a pipeline of services and execute it on a distributed systenm by simply selecting the desired services and connecting them in the desired manner. The system monitors the workload of each physical machine and the workload of each container, so that in case a container (service) undergoes starvation in terms of allocated resources, it may be migrated to another physical machine within the system which can allocate the required resources.
+This is a project built using Docker in which a system has been designed allowing users to build a pipeline of services and execute it on a distributed system by simply selecting the desired services and connecting them in the desired manner. The system monitors the workload of each physical machine and the workload of each container, so that in case a container (service) undergoes starvation in terms of allocated resources, it may be migrated to another physical machine within the system which can allocate the required resources.
 
 The project can be executed by running `website.py` located in the `PaaS` folder
 
